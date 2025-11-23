@@ -65,18 +65,10 @@ export const metadata: Metadata = {
     title: "Salmorejo Tech 2026 | El Evento Tecnológico de Córdoba",
     description:
       "Únete a la mayor cita tecnológica de Córdoba. Networking, ponencias de primer nivel y mucho salmorejo. ¡Call for Papers disponible!",
-    url: "/2026",
+    url: SITE_BASE_PATH,
     siteName: "Salmorejo Tech",
     locale: "es_ES",
     type: "website",
-    images: [
-      {
-        url: `${SITE_BASE_PATH}/opengraph-image.jpg`,
-        width: 1200,
-        height: 630,
-        alt: "Logo Salmorejo Tech 2026",
-      },
-    ],
   },
 
   // --- Twitter Card ---
@@ -87,7 +79,6 @@ export const metadata: Metadata = {
       "Únete a la mayor cita tecnológica de Córdoba. Networking, ponencias de primer nivel y mucho salmorejo. ¡Call for Papers disponible!",
     site: "@AulaSL",
     creator: "@AulaSL",
-    images: [`${SITE_BASE_PATH}/opengraph-image.jpg`],
   },
 
   verification: {
