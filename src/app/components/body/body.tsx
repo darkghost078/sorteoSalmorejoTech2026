@@ -22,11 +22,9 @@ export default function body() {
         <h1 className={styles.text}>
           LA CITA DE LA TECNOLOGÍA CORDOBESA REGRESA CON UNA ENERGÍA IMPARABLE
         </h1>
-        <h1 className={styles.text2}>
-          FECHA POR ANUNCIAR
-        </h1>
+        <h1 className={styles.text2}>FECHA POR ANUNCIAR</h1>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdNOP1mYrdZi2WQhaiZ-nMbRqYowmwW1T4RYTBlrnShJ-ukxA/viewform"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSczW34Jwwqgsktxg9FXm--X-Wva69rlmck18GivQlK0HoK3Hg/viewform?usp=dialog"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.notifybutton}
