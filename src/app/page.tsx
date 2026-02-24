@@ -12,6 +12,7 @@ export default function Home() {
     <div className="relative" style={{ minHeight: "100vh" }}>
       <Background />
       <motion.div
+      className="relative z-10 flex flex-col flex-grow"
         initial="hidden"
         animate="visible"
         onAnimationComplete={() => setIsAnimationComplete(true)}
