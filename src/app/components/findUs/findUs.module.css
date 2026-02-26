@@ -1,0 +1,41 @@
+.container-findus {
+  position: absolute;
+  width: 1051px;
+  height: 151px;
+  top: 1122px; 
+  left: 346px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+
+  background: linear-gradient(
+    106.42deg, 
+    rgba(255, 255, 255, 0.9) -27.72%, 
+    rgba(255, 255, 255, 0.4) 121.87%
+  );
+
+  border: 2px solid #ffffff; 
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  
+
+  backdrop-filter: blur(15px);
+  z-index: 999; 
+}
+
+.findUs{
+
+  font-family: 'Oswald';
+  font-weight: 600;      
+  font-style: normal;    
+  font-size: 30px;
+  line-height: 1;       
+  letter-spacing: 0; 
+  color: #BB1B4C;
+
+  position: relative;
+  top: 400px;  
+  left: 850px;
+ 
+}
