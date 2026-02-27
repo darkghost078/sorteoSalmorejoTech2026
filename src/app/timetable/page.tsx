@@ -1,6 +1,6 @@
 "use client";
 import Navbar from "@/app/components/navbar/navbar";
-import Schedule from "@/app/components/timetable/Timetable";
+import Schedule from "@/app/components/Timetable/Timetable";
 import Footer from "@/app/components/footer/footer";
 import Background from "@/app/components/background/background";
 import { motion } from "framer-motion";
