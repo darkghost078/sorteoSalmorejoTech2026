@@ -27,6 +27,7 @@
 
 .webscontainer{
     display: grid;
+    justify-items: center;
     width: 80%;
     justify-self: center;
     border-radius: 0.5em;
