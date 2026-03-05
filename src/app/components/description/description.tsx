@@ -1,5 +1,9 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from './description.module.css';
+import asistenteImg from '../../assets/asistentes.png';
+import ponenciasImg from '../../assets/ponencias.png';
+import networkingImg from '../../assets/networking.png';
 
 interface DescriptionProps {
   title?: string;
@@ -31,19 +35,51 @@ const Description: React.FC<DescriptionProps> = ({
       </div>
 
       <div className={`${styles.glassCard} ${styles.stats}`}>
+
         <div className={styles.stat}>
-          <span className={styles.statNumber}>+{assistants}</span>
-          <span className={styles.statLabel}>asistentes</span>
+          <Image
+            src={asistenteImg}
+            alt="Asistentes"
+            className={styles.statImage}
+            width={120}
+            height={120}
+          />
+
+          <div className={styles.statText}>
+            <div>+{assistants}</div>
+            <div>asistentes</div>
+          </div>
         </div>
 
         <div className={styles.stat}>
-          <span className={styles.statNumber}>+{talks}</span>
-          <span className={styles.statLabel}>ponencias</span>
+          <Image
+            src={ponenciasImg}
+            alt="Ponencias"
+            className={styles.statImage}
+            width={120}
+            height={120}
+          />
+
+          <div className={styles.statText}>
+            <div>+{talks}</div>
+            <div>ponencias</div>
+          </div>
         </div>
 
         <div className={styles.stat}>
-          <span className={styles.statLabel}>networking</span>
+          <Image
+            src={networkingImg}
+            alt="Networking"
+            className={styles.statImage}
+            width={120}
+            height={120}
+          />
+
+          <div className={styles.statText}>
+            <div>Networking</div>
+          </div>
         </div>
+
       </div>
 
       <div className={`${styles.glassCard} ${styles.content}`}>
