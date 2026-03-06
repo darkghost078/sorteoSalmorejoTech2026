@@ -91,7 +91,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <script
           type="application/ld+json"

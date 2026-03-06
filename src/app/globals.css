@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Oswald:wght@200..700&display=swap");
 @import "tailwindcss";
-
 
 @layer theme {
   @theme {
@@ -20,10 +19,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
-html, body {
+html,
+body {
   min-height: 100vh;
 }
-
 
 body {
   margin: 0;
@@ -31,12 +30,9 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background-image:
-    url("./assets/FondoLandingDarkerOptimized.svg"),
-    url("./assets/River.svg");
+    url("./assets/FondoLandingDarkerOptimized.svg"), url("./assets/River.svg");
 
-  background-repeat:
-    no-repeat,
-    repeat;
+  background-repeat: no-repeat, repeat;
   background-position:
     top center,
     center 150vh;
@@ -45,5 +41,5 @@ body {
     100% auto,
     100% auto;
 
-  background-color: #CA8059;
+  background-color: #ca8059;
 }
