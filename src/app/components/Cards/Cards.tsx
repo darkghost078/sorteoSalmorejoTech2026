@@ -3,10 +3,10 @@ import Card from '../Card/Card'
 
 
 export default function Cards() {
-  const DavidMart = '/PeoplePhotos/front/david.jpeg'
-  const DavidMartOP = '/PeoplePhotos/back/david.jpeg'
+  const DavidMart = "PeoplePhotos/back/david.jpeg"
+  const DavidMartOP = "PeoplePhotos/back/david.jpeg"
   return (
-    <>1
+    <>
       <div>
         <h2 className={styles.title}>Nuestro equipo</h2>
         <h3 className={styles.group}>GENERAL</h3>

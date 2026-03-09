@@ -34,9 +34,11 @@ export default function Card({
           <div className={styles.photoContainer}>
             <img src={photo} alt="Foto de perfil" />
           </div>
+          <div className={styles.name}>
+            {children}
+          </div>
           <div className={styles.textcontainer}>
-            <div><h5 className={styles.NameText}>{children}</h5></div>
-            <div ><p className={styles.DescriptionText}>{description}</p></div>
+            {description}
           </div>
         </div>
         <div

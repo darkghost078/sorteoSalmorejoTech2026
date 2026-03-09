@@ -2,14 +2,16 @@
   perspective: 1000px;
   margin: 10px;
   size: 10%;  
+  border: 3px;
+  border-radius: 20px;
 }
 
 /* Inner element: holds all the content and rotates */
 .inner {
   display: flex;
-  aspect-ratio: 485 / 726;
+  aspect-ratio: 395 / 575;
   flex-shrink: 0;
-  border-radius: 50px;
+  border-radius: 40px;;
   border: 0px solid #7c0000;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -18,12 +20,29 @@
   position: relative;
   transform-style: preserve-3d; /* Allow 3D transforms for children */
   transition: transform 0.4s ease; /* Smooth rotation */
+  background: linear-gradient(118.94deg, rgba(208, 110, 77, 0.5) -31.34%, rgba(255, 0, 4, 0.29) 114.29%);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
 }
+
 
 /* Rotate the inner element on hover */
 .card:hover .inner {
   transform: rotateY(-180deg);
 }
+
+.name {
+  margin: 0 auto;
+  font-size: 5rem;
+  font-family: Protest Strike;
+  padding: 3.5%;
+  color: #573E3E;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+
 
 /* Both faces: positioned absolutely */
 .front,
@@ -97,43 +116,48 @@
 .photoContainer {
   background-size: contain;
   background-position: center;
-  margin-top: 0.5%;
-  aspect-ratio: 428 / 364.47;
-  height: 50%;
+  margin: 0 auto;
+  aspect-ratio: 350 / 250;
+  height: 40%;
   flex-shrink: 0;
-  border-radius: 30px;
+  border-radius: 41px;
   border: 5px solid #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: lightgray 100% / contain no-repeat;
   text-align: center;
 }
 
 /* Text container styling */
 .textcontainer {
-  margin-top: 9%;
   padding-left: 9%;
   padding-right: 9%;
   aspect-ratio: 428 / 251.47;
   height: 34%;
-  border-radius: 30px;
   opacity: 0.9;
-  background: rgba(255, 255, 255, 0.74);
   text-align: center;
   padding-top: 10px;
-}
-.textcontainer {
-  margin-top: 9%;
+  background: linear-gradient(106.42deg, rgba(255, 255, 255, 0.8) -27.72%, rgba(255, 255, 255, 0.1) 121.87%);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centra el texto verticalmente */
   align-items: center; /* Centra el texto horizontalmente */
-  padding: 10px;
   text-align: center;
-  border-radius: 30px;
+  font-size: 4rem;
+  font-family: Oswald;
+  font-style: normal;
+  line-height: 41px;
+  color: #573E3E;
+
   opacity: 0.9;
   background: rgba(255, 255, 255, 0.74);
   word-wrap: break-word;
   overflow: hidden; /* Asegura que el texto no se desborde */
 }
+
+
 
 /* Image inside the photo container */
 .photoContainer img {
@@ -143,120 +167,3 @@
   object-position: center;
   border-radius: 30px;
 }
-
-
-@media (max-width: 989px)  {
-  .NameText {
-    margin-top: 3%;
-    
-    font-family: Oswald;
-    color: #A8041A;
-    font-size: 130%;
-    text-align: center;
-    white-space: nowrap; /* Evita que el texto se desborde */
-    overflow: hidden; /* Oculta el texto que se desborde */
-     max-width: 100%; /* Asegura que el ancho no se desborde */
-  }
-  
-  .DescriptionText {
-    font-family: Oswald;
-    color: #A8041A;
-    font-size: clamp(14px, 18svw, 18px); /* Ajusta dinámicamente según el tamaño de la pantalla */
-    text-align: center;
-    overflow-wrap: break-word; /* Permite saltos de línea en palabras largas */
-    word-break: break-word; /* Rompe palabras largas si es necesario */
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4px;
-  }
-}
-@media (min-width: 767px) and (max-width: 990px) {
-.NameText {
-  margin-top: 3%;
-  
-  font-family: Oswald;
-  color: #A8041A;
-  font-size: 110%;
-  text-align: center;
-  white-space: nowrap; /* Evita que el texto se desborde */
-  overflow: hidden; /* Oculta el texto que se desborde */
-   max-width: 100%; /* Asegura que el ancho no se desborde */
-}
-
-.DescriptionText {
-  font-family: Oswald;
-  color: #A8041A;
-  font-size: clamp(12.3px, 0.9svw, 18px); /* Ajusta dinámicamente según el tamaño de la pantalla */
-  text-align: center;
-  overflow-wrap: break-word; /* Permite saltos de línea en palabras largas */
-  word-break: break-word; /* Rompe palabras largas si es necesario */
-  max-width: 100%;
-  max-height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px;
-}
-
-}
-@media (min-width: 991px)  and (max-width: 1200px){
-  .NameText {
-    margin-top: 3%;
-    
-    font-family: Oswald;
-    color: #A8041A;
-    font-size: 120%;
-    text-align: center;
-    white-space: nowrap; /* Evita que el texto se desborde */
-    overflow: hidden; /* Oculta el texto que se desborde */
-     max-width: 100%; /* Asegura que el ancho no se desborde */
-  }
-  
-  .DescriptionText {
-    font-family: Oswald;
-    color: #A8041A;
-    font-size: clamp(13px, 0.9svw, 18px); /* Ajusta dinámicamente según el tamaño de la pantalla */
-    text-align: center;
-    overflow-wrap: break-word; /* Permite saltos de línea en palabras largas */
-    word-break: break-word; /* Rompe palabras largas si es necesario */
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4px;
-  }
-  
-  }
-  @media (min-width: 1201px)  {
-    .NameText {
-      margin-top: 3%;
-      
-      font-family: Oswald;
-      color: #A8041A;
-      font-size: 150%;
-      text-align: center;
-      white-space: nowrap; /* Evita que el texto se desborde */
-      overflow: hidden; /* Oculta el texto que se desborde */
-       max-width: 100%; /* Asegura que el ancho no se desborde */
-    }
-    
-    .DescriptionText {
-      font-family: Oswald;
-      color: #A8041A;
-      font-size: clamp(17.1px, 0.9svw, 18px); /* Ajusta dinámicamente según el tamaño de la pantalla */
-      text-align: center;
-      overflow-wrap: break-word; /* Permite saltos de línea en palabras largas */
-      word-break: break-word; /* Rompe palabras largas si es necesario */
-      max-width: 100%;
-      max-height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 4px;
-    }
-    
-    }
