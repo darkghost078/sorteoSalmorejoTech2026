@@ -50,20 +50,20 @@ export default function Card({
         <p className={styles.text}>{description}</p>
       </div>
 
-        <div className={styles.iconContainer}>
+        <div className={styles.iconsContainer}>
           {MostrarBoton(twlink) && (
             <a href={twlink} target="_blank" rel="noopener noreferrer">
-              <img src={twLogo.src} alt="Twitter" className={styles.icon} />
+              <img src={twLogo.src} alt="Twitter" className={styles.iconContainer} />
             </a>
           )}
           {MostrarBoton(lklink) && (
             <a href={lklink} target="_blank" rel="noopener noreferrer">
-              <img src={lkLogo.src} alt="LinkedIn" className={styles.icon} />
+              <img src={lkLogo.src} alt="LinkedIn" className={styles.iconContainer} />
             </a>
           )}
           {MostrarBoton(ghlink) && (
             <a href={ghlink} target="_blank" rel="noopener noreferrer">
-              <img src={ghLogo.src} alt="GitHub" className={styles.icon} />
+              <img src={ghLogo.src} alt="GitHub" className={styles.iconContainer} />
             </a>
           )}
         </div>
