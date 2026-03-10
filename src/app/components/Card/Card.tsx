@@ -1,7 +1,7 @@
 import styles from './Card.module.css'
-import twLogo from '../../assets/twLogo.svg'
-import ghLogo from '../../assets/ghLogo.svg'
-import lkLogo from '../../assets/lkLogo.svg'
+import twLogo from '../../assets/ttLogoCard.svg'
+import ghLogo from '../../assets/ghLogoCard.svg'
+import lkLogo from '../../assets/lkLogoCard.svg'
 
 import { ReactNode, useState } from 'react'
 
@@ -36,13 +36,39 @@ export default function Card({
 <div className={styles.flipCard} onClick={handleClick}>
   <div className={`${styles.flipCardInner} ${isFlipped ? styles.flipCardFlip : ''}`}>
     <div className={styles.flipCardFront}>
-      <img src="img_avatar.png" alt="Avatar">
-      </img>
+
+      <div className={styles.imageContainer}>
+        <img src={photo} alt={`Foto de ${children}`} className={styles.frontImage}/>
+      </div>
+
+      <p className={styles.nameText}>{children}</p>
+
+      <div className={styles.textContainer}>
+        <p className={styles.text}>{description}</p>
+      </div>
+
+        <div className={styles.iconContainer}>
+          {MostrarBoton(twlink) && (
+            <a href={twlink} target="_blank" rel="noopener noreferrer">
+              <img src={twLogo.src} alt="Twitter" className={styles.icon} />
+            </a>
+          )}
+          {MostrarBoton(lklink) && (
+            <a href={lklink} target="_blank" rel="noopener noreferrer">
+              <img src={lkLogo.src} alt="LinkedIn" className={styles.icon} />
+            </a>
+          )}
+          {MostrarBoton(ghlink) && (
+            <a href={ghlink} target="_blank" rel="noopener noreferrer">
+              <img src={ghLogo.src} alt="GitHub" className={styles.icon} />
+            </a>
+          )}
+        </div>
+
     </div>
     <div className={styles.flipCardBack}>
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
-      <p>We love that guy</p>
+      <img src={backphoto} alt="Foto Persona formal"/>
+      <p>{`${children}`}</p>
     </div>
   </div>
 </div>

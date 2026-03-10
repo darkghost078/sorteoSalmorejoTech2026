@@ -14,11 +14,13 @@ export default function Cards() {
           <div className="row justify-content-center">
             <div className="col-md-5 col-lg-4">
               <Card
-                description="Estudiante de ingenieria informatica de la Uco"
+                description="Dioos, voy a poner algo, algo, sabes lo que digo, verdad, mambo, bomboclat (Frase formal)"
                 photo={DavidMart}
                 backphoto={DavidMartOP}
                 lklink="https://www.linkedin.com/in/david-martinez-76b284352/"
                 ghlink="https://github.com/darkghost078"
+                twlink="https://github.com/darkghost078"
+
               >
                 {' '}
                 David Martínez Molina{' '}
