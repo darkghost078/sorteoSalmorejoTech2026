@@ -49,7 +49,6 @@ export default function Home() {
         <Description/>
         <Timetable />
         <FindUs/>
-        <Timetable />
         {/*<Cards/>*/}
         <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
         <Footer isVisible={isAnimationComplete} />

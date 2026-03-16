@@ -40,12 +40,11 @@
   box-shadow: 0px 20px 40px 0px #00000040;
   width: 60%;
   max-width: 700px;
-  height: 130px;
   min-height: 130px;
   opacity: 1;
   border-radius: 40px;
   border-width: 1px;
-  margin: 150px auto 0 auto;
+  margin: 150px auto 0 27.5%;
   padding: 25px 20px;
 }
 
@@ -140,20 +139,13 @@
 }
 
 .textPurple {
-  width: 442px;
-  height: 70px;
-  left: 50%;
-  opacity: 1;
-  font-family: Oswald;
-  font-size: clamp(3rem, 3vm, 5 rem);
+  margin: 0;
+  font-family: 'Oswald';
   font-weight: 600;
-  font-style: SemiBold;
-  font-size: 70px;
-  line-height: 100%;
-  letter-spacing: 0%;
   color: #8B1B4C;
   text-align: center;
-
+  line-height: 100%;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
 }
 
 .modal {
@@ -273,6 +265,10 @@
   }
   .timetableBlock {
     width: 80%;
+    margin: 100px auto 0 19.5%;
+  }
+  .textPurple{
+    font-size: 3rem;
   }
 }
 
@@ -294,7 +290,8 @@
     min-height: 150px;
   }
   .timetableBlock {
-    width: 95%;
+    width: 70%;
+    margin-left: auto;
   }
 }
 

@@ -150,7 +150,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
 
-      <h2 className={styles.scheduleTitleTimetable}>TALLER</h2>
+      {/*<h2 className={styles.scheduleTitleTimetable}>TALLER</h2>
       
       <div className={styles.scheduleRow}>
         <div className={styles.timeBlock}>
@@ -161,7 +161,7 @@ const Schedule: React.FC = () => {
           <h3 className={styles.scheduleTitle}>TBA</h3>
         </div>
       </div>
-
+      */}
       {selectedEvent && (
         <div className={styles.modal} onClick={closeModal}>
           <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
