@@ -5,6 +5,8 @@ import Body from "@/app/components/body/body";
 import Footer from "@/app/components/footer/footer";
 import Timetable from "@/app/components/Timetable/Timetable";
 import Cards from "./components/Cards/Cards";
+import Description from '@/app/components/description/description';
+
 
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -41,8 +43,11 @@ export default function Home() {
         style={{ position: "relative", zIndex: 10 }}
       >
 
+        
         <Navbar />
         <Body />
+        <Description/>
+        <Timetable />
         <FindUs/>
         <Timetable />
         {/*<Cards/>*/}
