@@ -1,6 +1,6 @@
 import styles from "./findUs.module.css";
 import Image from "next/image";
-import map from "../../assets/map.png";
+import map from "../../assets/map.jpg";
 
 export default function FindUs() {
   return (
@@ -8,15 +8,12 @@ export default function FindUs() {
       <div className={styles.findusContainer}>
         <p className={styles.findUs}>ENCUÉNTRANOS</p>
       </div>
-        <div className={styles.mapContainer}>
-          <a href="https://maps.app.goo.gl/bqrxVc7ceJjnZyVf9">
-            <Image 
-              src={map}
-              alt="maps location"
-              className={styles.mapImage}
-            />
-          </a>
+      <div className={styles.mapContainer}>
+        <a href="https://maps.app.goo.gl/bqrxVc7ceJjnZyVf9">
+          <Image src={map} alt="maps location" className={styles.mapImage} />
+        </a>
       </div>
     </div>
   );
 }
+

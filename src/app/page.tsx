@@ -5,22 +5,20 @@ import Body from "@/app/components/body/body";
 import Footer from "@/app/components/footer/footer";
 import Timetable from "@/app/components/Timetable/Timetable";
 import Cards from "./components/Cards/Cards";
-import Description from '@/app/components/description/description';
-
+import Description from "@/app/components/description/description";
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { SponsorProps } from '../app/components/Sponsors'
-import sponsors from '@/data/sponsors.json'
-import { SponsorsGrid } from '@/app/components/Sponsors/grid'
-
+import { SponsorProps } from "../app/components/Sponsors";
+import sponsors from "@/data/sponsors.json";
+import { SponsorsGrid } from "@/app/components/Sponsors/grid";
 
 export default function Home() {
   const [isAnimationComplete, setIsAnimationComplete] = useState(false);
   return (
     <div className="relative" style={{ minHeight: "100vh" }}>
       <motion.div
-      className="relative z-10 flex flex-col flex-grow"
+        className="relative z-10 flex flex-col flex-grow"
         initial="hidden"
         animate="visible"
         onAnimationComplete={() => setIsAnimationComplete(true)}
@@ -42,18 +40,16 @@ export default function Home() {
         }}
         style={{ position: "relative", zIndex: 10 }}
       >
-
-        
         <Navbar />
         <Body />
-        <Description/>
+        <Description />
+        <FindUs />
         <Timetable />
-        <FindUs/>
         {/*<Cards/>*/}
         <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
         <Footer isVisible={isAnimationComplete} />
-
       </motion.div>
     </div>
   );
 }
+
