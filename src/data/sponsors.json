@@ -31,15 +31,9 @@
   },
   {
     "name": "Mercado Victoria",
-    "type": "PERA",
+    "type": "CHERRY",
     "imageUrl": "/2026/sponsors/mv.webp",
     "href": "https://www.mercadovictoria.com/"
-  },
-  {
-    "name": "SUSE",
-    "type": "PERA",
-    "imageUrl": "/2026/sponsors/suse.webp",
-    "href": "https://www.suse.com/es-es/"
   },
   {
     "name": "Nter",
