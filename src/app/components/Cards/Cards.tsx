@@ -249,6 +249,18 @@ const Diseño: CardInfo[] = [
     ghlink: "",
     twlink: "",
   },
+  {
+    name: "Adrián Ortiz Rodríguez",
+    description:
+      "Estudiante infiltrado de ingeniería eléctrica",
+    backDescription:
+      "A  veces en la vida hay que decir \" amai \" y seguir para delante",
+    photo: "PeoplePhotos/front/adrian.jpeg",
+    backphoto: "PeoplePhotos/front/adrian.jpeg",
+    lklink: "",
+    ghlink: "",
+    twlink: "",
+  },
 ];
 
 const Sections: CardSection[] = [
