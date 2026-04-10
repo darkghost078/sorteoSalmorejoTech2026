@@ -34,18 +34,6 @@ const General: CardInfo[] = [
     twlink: "https://x.com/000Volk000",
   },
   {
-    name: "Chenhao Zheng",
-    description:
-      "Amo y odio programar",
-    backDescription:
-      "Amo y odio programar",
-    photo: "PeoplePhotos/front/chenfront.jpeg",
-    backphoto: "PeoplePhotos/back/chenback.jpeg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
-  },
-  {
     name: "Pedro Jesus Castilla Rodríguez",
     description:
       "Si no puedes leer el código, no eres el dueño",
@@ -56,18 +44,6 @@ const General: CardInfo[] = [
     lklink: "",
     ghlink: "https://github.com/TheIronfoxX ",
     twlink: "https://x.com/Ironfox_XTT",
-  },
-  {
-    name: "Gema",
-    description:
-      "Si no lo consigo hoy, lo intentaré mañana",
-    backDescription:
-      "Madre de una bola gorda de pelo monísima ",
-    photo: "PeoplePhotos/front/gemafront.jpeg",
-    backphoto: "PeoplePhotos/back/gemaback.jpg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
   },
 ];
 
@@ -183,6 +159,18 @@ const Infraestructura: CardInfo[] = [
     ghlink: "",
     twlink: "",
   },
+  {
+    name: "Chenhao Zheng",
+    description:
+      "Amo y odio programar",
+    backDescription:
+      "Amo y odio programar",
+    photo: "PeoplePhotos/front/chenfront.jpeg",
+    backphoto: "PeoplePhotos/back/chenback.jpeg",
+    lklink: "",
+    ghlink: "",
+    twlink: "",
+  },
 ];
 
 const Marketing: CardInfo[] = [
@@ -245,6 +233,18 @@ const Diseño: CardInfo[] = [
       "🤠",
     photo: "PeoplePhotos/front/cucofront.jpg",
     backphoto: "PeoplePhotos/back/cucoback.JPG",
+    lklink: "",
+    ghlink: "",
+    twlink: "",
+  },
+  {
+    name: "Gema María Espejo Plasencia",
+    description:
+      "Si no lo consigo hoy, lo intentaré mañana",
+    backDescription:
+      "Madre de una bola gorda de pelo monísima ",
+    photo: "PeoplePhotos/front/gemafront.jpeg",
+    backphoto: "PeoplePhotos/back/gemaback.jpg",
     lklink: "",
     ghlink: "",
     twlink: "",
