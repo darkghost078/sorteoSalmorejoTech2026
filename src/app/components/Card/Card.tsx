@@ -2,7 +2,6 @@ import styles from './Card.module.css'
 import twLogo from '../../assets/ttLogoCard.svg'
 import ghLogo from '../../assets/ghLogoCard.svg'
 import lkLogo from '../../assets/lkLogoCard.svg'
-import otherlogo from '../../assets/other.png'
 
 import { ReactNode, useState } from 'react'
 
@@ -16,7 +15,6 @@ interface CardProps {
   twlink?: string
   lklink?: string
   ghlink?: string
-  otherlink?: string
 }
 
 export default function Card({
@@ -28,7 +26,6 @@ export default function Card({
   twlink = 'unknown',
   lklink = 'unknown',
   ghlink = 'unknown',
-  otherlink = 'unknown',
 }: CardProps) {
   const [isFlipped, setIsFlipped] = useState(false)
   const MostrarBoton = (boton: string) => boton !== 'unknown'
@@ -67,11 +64,6 @@ export default function Card({
           {MostrarBoton(ghlink) && (
             <a href={ghlink} target="_blank" rel="noopener noreferrer">
               <img src={ghLogo.src} alt="GitHub" className={styles.iconContainer} />
-            </a>
-          )}
-          {MostrarBoton(otherlink) && (
-            <a href={otherlink} target="_blank" rel="noopener noreferrer">
-              <img src={otherlogo.src} alt="Other" className={styles.iconContainer} />
             </a>
           )}
         </div>
