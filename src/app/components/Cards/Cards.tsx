@@ -10,10 +10,9 @@ interface CardInfo {
   backDescription: string;
   photo: string;
   backphoto: string;
-  lklink?: string;
-  ghlink?: string;
-  twlink?: string;
-  otherlink?: string;
+  lklink: string;
+  ghlink: string;
+  twlink: string;
 }
 
 interface CardSection {
@@ -33,7 +32,6 @@ const General: CardInfo[] = [
     lklink: "https://www.linkedin.com/in/000Volk000",
     ghlink: "https://github.com/000Volk000",
     twlink: "https://x.com/000Volk000",
-    otherlink: "https://linktree.volkhost.es",
   },
   {
     name: "Pedro Jesus Castilla Rodríguez",
@@ -104,14 +102,13 @@ const Infraestructura: CardInfo[] = [
     name: "David Sánchez Palomino",
     description: "Heyy soy un tio formal y me flipa el desarrollo de software",
     backDescription:
-      "Number 1 esclavizador de Gemini (con criterio)",
+      "Number 1 esclavizador de Gemini (con criterio), checka mis repooos ^^",
     photo: "PeoplePhotos/front/davidfront.webp",
     backphoto: "PeoplePhotos/back/davidback.webp",
     lklink:
       "https://www.linkedin.com/in/david-s%C3%A1nchez-palomino-a06671322/?skipRedirect=true",
     ghlink: "https://github.com/davidI9",
     twlink: "https://x.com/davd19_",
-    otherlink: "https://david19-page.vercel.app/",
   },
   {
     name: "Juán Antonio Mellado Arenas",
@@ -274,7 +271,6 @@ export default function Cards() {
                         lklink={card.lklink}
                         ghlink={card.ghlink}
                         twlink={card.twlink}
-                        otherlink={card.otherlink}
                       >
                         {" "}
                         {card.name}{" "}
