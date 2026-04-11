@@ -35,13 +35,10 @@ const General: CardInfo[] = [
   },
   {
     name: "Pedro Jesus Castilla Rodríguez",
-    description:
-      "Si no puedes leer el código, no eres el dueño",
-    backDescription:
-      "Soy mas de GazpachoTech",
+    description: "Si no puedes leer el código, no eres el dueño",
+    backDescription: "Soy mas de GazpachoTech",
     photo: "PeoplePhotos/front/pedrofront.jpg",
     backphoto: "PeoplePhotos/back/pedroback.jpeg",
-    lklink: "",
     ghlink: "https://github.com/TheIronfoxX ",
     twlink: "https://x.com/Ironfox_XTT",
   },
@@ -49,28 +46,25 @@ const General: CardInfo[] = [
 
 const Gestion: CardInfo[] = [
   {
-    name: "Antonio Cañete López",
-    description:
-      "Soy cañete jeje",
-    backDescription:
-      "Soy cañete otra vez jaja",
-    photo: "PeoplePhotos/front/cañetefront.jpeg",
-    backphoto: "PeoplePhotos/back/cañeteback.jpeg",
-    lklink: "https://www.linkedin.com/in/antonio-ca%C3%B1ete-l%C3%B3pez-928a17366/",
-    ghlink: "https://github.com/i32caloa",
-    twlink: "https://x.com/Antonio_cl53",
-  },
-  {
     name: "Pablo Miguel Martínez Segovia",
-    description:
-      "Siempre cocinando alguna idea nueva.",
-    backDescription:
-      "Siempre cocinando cualquier cosa.",
+    description: "Siempre cocinando alguna idea nueva.",
+    backDescription: "Siempre cocinando cualquier cosa.",
     photo: "PeoplePhotos/front/pablofront.jpg",
     backphoto: "PeoplePhotos/back/pabloback.jpg",
-    lklink: "https://www.linkedin.com/in/pablo-miguel-mart%C3%ADn-segovia-1ab9001b9",
+    lklink:
+      "https://www.linkedin.com/in/pablo-miguel-mart%C3%ADn-segovia-1ab9001b9",
     ghlink: "https://github.com/PMMS22",
-    twlink: "",
+  },
+  {
+    name: "Antonio Cañete López",
+    description: "Soy cañete jeje",
+    backDescription: "Soy cañete otra vez jaja",
+    photo: "PeoplePhotos/front/cañetefront.jpeg",
+    backphoto: "PeoplePhotos/back/cañeteback.jpeg",
+    lklink:
+      "https://www.linkedin.com/in/antonio-ca%C3%B1ete-l%C3%B3pez-928a17366/",
+    ghlink: "https://github.com/i32caloa",
+    twlink: "https://x.com/Antonio_cl53",
   },
   {
     name: "Sergio Palacios López",
@@ -82,26 +76,19 @@ const Gestion: CardInfo[] = [
     backphoto: "PeoplePhotos/back/sergioback.jpeg",
     lklink: "https://www.linkedin.com/in/sergio-palacios-l%C3%B3pez-695736352/",
     ghlink: "https://github.com/Serpal64",
-    twlink: "",
   },
   {
     name: "Carlos Torres Jiménez",
-    description:
-      "Me gustan los retos",
-    backDescription:
-      "Me gustan los retos",
+    description: "Me gustan los retos",
+    backDescription: "Me gustan los retos",
     photo: "PeoplePhotos/front/carlitosfront.jpg",
     backphoto: "PeoplePhotos/back/carelitosback.jpg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
   },
   {
     name: "Alejandro Martos Bellido",
     description:
       "Estudiando Ingeniería de Software para que la informática esté al alcance de todos.",
-    backDescription:
-      "Todo es vibe-coding si estás chill siempre",
+    backDescription: "Todo es vibe-coding si estás chill siempre",
     photo: "PeoplePhotos/front/alejandrofront.png",
     backphoto: "PeoplePhotos/back/alejandroback.jpg",
     lklink: "www.linkedin.com/in/alejandromartosbellido",
@@ -113,13 +100,13 @@ const Gestion: CardInfo[] = [
 const Infraestructura: CardInfo[] = [
   {
     name: "David Sánchez Palomino",
-    description:
-      "Heyy soy un tio formal y me flipa el desarrollo de software",
+    description: "Heyy soy un tio formal y me flipa el desarrollo de software",
     backDescription:
       "Number 1 esclavizador de Gemini (con criterio), checka mis repooos ^^",
     photo: "PeoplePhotos/front/davidfront.jpeg",
     backphoto: "PeoplePhotos/back/davidback.jpeg",
-    lklink: "https://www.linkedin.com/in/david-s%C3%A1nchez-palomino-a06671322/?skipRedirect=true",
+    lklink:
+      "https://www.linkedin.com/in/david-s%C3%A1nchez-palomino-a06671322/?skipRedirect=true",
     ghlink: "https://github.com/davidI9",
     twlink: "https://x.com/davd19_",
   },
@@ -127,81 +114,42 @@ const Infraestructura: CardInfo[] = [
     name: "Juán Antonio Mellado Arenas",
     description:
       "3° de ingeniería informática, ¡siempre dispuesto y con muchísimas ganas de aprender!",
-    backDescription:
-      "Glu glu glu glu",
+    backDescription: "Glu glu glu glu",
     photo: "PeoplePhotos/front/juanfront.jpg",
     backphoto: "PeoplePhotos/back/juanback.jpg",
-    lklink: "https://www.linkedin.com/in/juan-mellado-02056a352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    lklink:
+      "https://www.linkedin.com/in/juan-mellado-02056a352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     ghlink: "https://github.com/ByteKata08",
     twlink: "https://x.com/__juaneljulaint",
   },
   {
-    name: "Nicolás Sánchez Álvarez",
-    description:
-      "Estudiante de ingeniería informática en la UCO. ",
-    backDescription:
-      "SalmorejoTech‼️",
-    photo: "PeoplePhotos/front/nicofront.jpeg",
-    backphoto: "PeoplePhotos/back/nicoback.jpeg",
-    lklink: "",
-    ghlink: "https://github.com/dextbrawl",
-    twlink: "",
-  },
-  {
     name: "Roxana Ortiz Mellado",
-    description:
-      "Estudiante de ingeniería informática",
-    backDescription:
-      "Estudiante de ingeniería informática",
+    description: "Estudiante de ingeniería informática",
+    backDescription: "Estudiante de ingeniería informática",
     photo: "PeoplePhotos/front/roxanafront.jpg",
     backphoto: "PeoplePhotos/back/roxanaback.jpg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
+  },
+  {
+    name: "Nicolás Sánchez Álvarez",
+    description: "Estudiante de ingeniería informática en la UCO. ",
+    backDescription: "SalmorejoTech‼️",
+    photo: "PeoplePhotos/front/nicofront.jpeg",
+    backphoto: "PeoplePhotos/back/nicoback.jpeg",
+    ghlink: "https://github.com/dextbrawl",
   },
   {
     name: "Chenhao Zheng",
-    description:
-      "Amo y odio programar",
-    backDescription:
-      "Amo y odio programar",
+    description: "Amo y odio programar",
+    backDescription: "Amo y odio programar",
     photo: "PeoplePhotos/front/chenfront.jpeg",
     backphoto: "PeoplePhotos/back/chenback.jpeg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
   },
 ];
 
 const Marketing: CardInfo[] = [
   {
-    name: "Manuel Reyes Serrano",
-    description:
-      "Experto en aprender",
-    backDescription:
-      "Hice un botón y la página se volvió azul",
-    photo: "PeoplePhotos/front/tefryfront.png",
-    backphoto: "PeoplePhotos/back/tefryconunfurro.png",
-    lklink: "https://www.linkedin.com/in/manuel-reyes-a15283352/",
-    ghlink: "",
-    twlink: "https://x.com/Tefry_nt",
-  },
-  {
-    name: "Rafael Girón Prats",
-    description:
-      "Especialista en aportar soluciones con rigor y dedicación.",
-    backDescription:
-      "Lo mejor del SalmorejoTech es la comida gratis",
-    photo: "PeoplePhotos/front/rafafront.jpeg",
-    backphoto: "PeoplePhotos/back/rafaback.jpg",
-    lklink: "https://linkedin.com/in/rafa-girón-prats-683a263b4",
-    ghlink: "https://github.com/Rafalete-UCO",
-    twlink: "https://x.com/faralete",
-  },
-  {
     name: "Jaime Hernández Pérez",
-    description:
-      "Máquina de posts y memes recién salidos de Italia",
+    description: "Máquina de posts y memes recién salidos de Italia",
     backDescription:
       "Una vez entras en Ingeniería del Software nunca escapas del Scrum",
     photo: "PeoplePhotos/front/jaimefront.jpeg",
@@ -211,6 +159,15 @@ const Marketing: CardInfo[] = [
     twlink: "https://x.com/JaimeH_05",
   },
   {
+    name: "Manuel Reyes Serrano",
+    description: "Experto en aprender",
+    backDescription: "Hice un botón y la página se volvió azul",
+    photo: "PeoplePhotos/front/tefryfront.png",
+    backphoto: "PeoplePhotos/back/tefryconunfurro.png",
+    lklink: "https://www.linkedin.com/in/manuel-reyes-a15283352/",
+    twlink: "https://x.com/Tefry_nt",
+  },
+  {
     name: "Alicia Muriel Fernández",
     description:
       "Estudiante de 3º de Ingeniería Informática, especializada en Computación.",
@@ -218,48 +175,45 @@ const Marketing: CardInfo[] = [
       "Siempre con ganas de aprender y lista para afrontar cualquier reto",
     photo: "PeoplePhotos/front/aliciafront.jpeg",
     backphoto: "PeoplePhotos/back/aliciaback.jpeg",
-    lklink: "https://www.linkedin.com/in/alicia-muriel-fern%C3%A1ndez-ab083538a/",
+    lklink:
+      "https://www.linkedin.com/in/alicia-muriel-fern%C3%A1ndez-ab083538a/",
     ghlink: "https://github.com/i32mufea",
     twlink: "https://x.com/amurif13",
+  },
+  {
+    name: "Rafael Girón Prats",
+    description: "Especialista en aportar soluciones con rigor y dedicación.",
+    backDescription: "Lo mejor del SalmorejoTech es la comida gratis",
+    photo: "PeoplePhotos/front/rafafront.jpeg",
+    backphoto: "PeoplePhotos/back/rafaback.jpg",
+    lklink: "https://linkedin.com/in/rafa-girón-prats-683a263b4",
+    ghlink: "https://github.com/Rafalete-UCO",
+    twlink: "https://x.com/faralete",
   },
 ];
 
 const Diseño: CardInfo[] = [
   {
     name: "Javier León Torrecilla",
-    description:
-      "Estudiante de Ingeniería Informática en la UCO",
-    backDescription:
-      "🤠",
+    description: "Estudiante de Ingeniería Informática en la UCO",
+    backDescription: "🤠",
     photo: "PeoplePhotos/front/cucofront.jpg",
     backphoto: "PeoplePhotos/back/cucoback.JPG",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
   },
   {
     name: "Gema María Espejo Plasencia",
-    description:
-      "Si no lo consigo hoy, lo intentaré mañana",
-    backDescription:
-      "Madre de una bola gorda de pelo monísima ",
+    description: "Si no lo consigo hoy, lo intentaré mañana",
+    backDescription: "Madre de una bola gorda de pelo monísima ",
     photo: "PeoplePhotos/front/gemafront.jpeg",
     backphoto: "PeoplePhotos/back/gemaback.jpg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
   },
   {
     name: "Adrián Ortiz Rodríguez",
-    description:
-      "Estudiante infiltrado de ingeniería eléctrica",
+    description: "Estudiante infiltrado de ingeniería eléctrica",
     backDescription:
-      "A  veces en la vida hay que decir \" amai \" y seguir para delante",
+      'A  veces en la vida hay que decir " amai " y seguir para delante',
     photo: "PeoplePhotos/front/adrian.jpeg",
     backphoto: "PeoplePhotos/front/adrian.jpeg",
-    lklink: "",
-    ghlink: "",
-    twlink: "",
   },
 ];
 
@@ -283,17 +237,25 @@ const Sections: CardSection[] = [
   {
     sectionName: "Diseño",
     cardList: Diseño,
-  }
+  },
 ];
 
 export default function Cards() {
   return (
     <>
       <div>
-        <h2 className={`${styles.title} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}>Nuestro equipo</h2>
+        <h2
+          className={`${styles.title} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}
+        >
+          Nuestro equipo
+        </h2>
         {Sections.map((section) => (
           <div key={section.sectionName} className="justify-items-center grid">
-            <h3 className={`${styles.group} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}>{section.sectionName}</h3>
+            <h3
+              className={`${styles.group} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}
+            >
+              {section.sectionName}
+            </h3>
             <div className="container w-full justify-center">
               <div className="row justify-content-center grid">
                 <div className={`col-md-5 col-lg-4 ${styles.cardDisplay}`}>
