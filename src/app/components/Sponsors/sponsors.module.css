@@ -1,168 +1,166 @@
 .background {
-  margin: -1px;
-  padding: 2rem;
+    margin: -1px;
+    padding: 2rem;
 }
 
 .containerPera {
-  margin: 0 auto;
-  border-radius: 30px;
-  display: flex;
-  padding: 2rem 1rem;
-  flex-flow: row wrap;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  gap: 1.5rem;
-  flex-grow: 1;
-  max-width: 1350px;
-  margin-bottom: 0vw;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin: 0 auto;
+    border-radius: 30px;
+    display: flex;
+    padding: 2rem 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-grow: 1;
+    max-width: 1350px;
+    margin-bottom: 0vw;
+    box-shadow:
+        rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .containerCherry {
-  margin: 0 auto;
-  border-radius: 30px;
-  display: flex;
-  padding: 2rem 1rem;
-  flex-flow: row wrap;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  gap: 1.5rem;
-  flex-grow: 1;
-  max-width: 900px;
-  margin-bottom: 0vw;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin: 0 auto;
+    border-radius: 30px;
+    display: flex;
+    padding: 2rem 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-grow: 1;
+    max-width: 900px;
+    margin-bottom: 0vw;
+    box-shadow:
+        rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .schedule {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(30px) saturate(120%);
-  -webkit-backdrop-filter: blur(30px) saturate(120%);
-  border: 2px solid rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(40px);
-  box-shadow: 0px 20px 40px 0px #00000040;
-  width: 60%;
-  max-width: 700px;
-  height: 130px;
-  min-height: 130px;
-  opacity: 1;
-  margin-right: auto;
-  border-radius: 40px;
-  border-width: 1px;
-  margin: 50px auto 0 auto;
-  padding: 25px 20px;
-  font-family: Oswald;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 70px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #8B1B4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px) saturate(120%);
+    -webkit-backdrop-filter: blur(30px) saturate(120%);
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 20px 40px 0px #00000040;
+    width: 60%;
+    max-width: 700px;
+    height: 130px;
+    min-height: 130px;
+    opacity: 1;
+    margin-right: auto;
+    border-radius: 40px;
+    border-width: 1px;
+    margin: 50px auto 0 auto;
+    padding: 25px 20px;
+    font-family: Oswald;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8b1b4c;
 }
 
 .scheduleType {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(30px) saturate(120%);
-  -webkit-backdrop-filter: blur(30px) saturate(120%);
-  border: 2px solid rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(40px);
-  box-shadow: 0px 20px 40px 0px #00000040;
-  width: 20%;
-  max-width: 300px;
-  aspect-ratio: 6/1.5;
-  opacity: 1;
-  margin-right: auto;
-  border-radius: 40px;
-  border-width: 1px;
-  margin: 50px auto 0 auto;
-  padding: 25px 20px;
-  font-family: Oswald;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 50px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #8B1B4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px) saturate(120%);
+    -webkit-backdrop-filter: blur(30px) saturate(120%);
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 20px 40px 0px #00000040;
+    width: 20%;
+    max-width: 300px;
+    aspect-ratio: 6/1.5;
+    opacity: 1;
+    margin-right: auto;
+    border-radius: 40px;
+    border-width: 1px;
+    margin: 50px auto 0 auto;
+    padding: 25px 20px;
+    font-family: Oswald;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8b1b4c;
 }
-
-
 
 .sponsorPera {
-  width: 10rem;
-  aspect-ratio: 1/1;
-  display: block;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .sponsorPera:hover {
-  cursor: pointer;
-  transform: scale(1.02);
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .sponsorCherry {
-  width: 5rem;
-  aspect-ratio: 1/1;
-  display: block;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+    width: 6.5rem;
+    aspect-ratio: 1/1;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .sponsorCherry:hover {
-  cursor: pointer;
-  transform: scale(1.02);
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 /* For medium screens */
 @media (max-width: 1024px) {
+    .schedule {
+        width: 50%;
+        font-size: 2rem;
+        padding: 1rem 5rem;
+        font-size: clamp(2rem, 7vw, 3rem);
+    }
 
-  .schedule {
-    width: 50%;
-    font-size: 2rem;
-    padding: 1rem 5rem;
-    font-size: clamp(2rem, 7vw, 3rem);
-
-  }
-
-  .scheduleType {
-    width: 45%;
-  }
-
+    .scheduleType {
+        width: 45%;
+    }
 }
 
 /* For very small screens */
 @media (max-width: 768px) {
+    .schedule {
+        width: 70%;
+        font-size: clamp(2rem, 7vw, 3rem);
+        padding: 1rem 2rem;
+    }
 
-  .schedule {
-    width: 70%;
-    font-size: clamp(2rem, 7vw, 3rem);
-    padding: 1rem 2rem;
-  }
-
-  .sponsorCherry{
-    width: 4.5rem;
-  }
+    .sponsorCherry {
+        width: 5rem;
+    }
 }
 
 /* For very very small screens */
 @media (max-width: 390px) {
-  .schedule {
-    width: 60%;
-    font-size: 1.3rem; 
-    padding: 1rem 1rem;
-  }
+    .schedule {
+        width: 60%;
+        font-size: 1.3rem;
+        padding: 1rem 1rem;
+    }
 
-  .scheduleType {
-    width: 50%;
-    font-size: clamp(2rem, 7vw, 3rem);
-  }
-
-
+    .scheduleType {
+        width: 50%;
+        font-size: clamp(2rem, 7vw, 3rem);
+    }
 }
