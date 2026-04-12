@@ -196,6 +196,16 @@ const Marketing: CardInfo[] = [
 
 const Diseño: CardInfo[] = [
   {
+    name: "Antonio Jesús Merlo Morales",
+    description: "3° Informática - Computación",
+    backDescription:
+      'Si funciona, no lo toques',
+    photo: "PeoplePhotos/front/antoniofront.webp",
+    backphoto: "PeoplePhotos/back/antonioback.webp",
+    lklink: "https://www.linkedin.com/in/antonio-jesús-merlo-morales-28ba162a8?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    ghlink: "https://rincondeaj.github.io/",
+  },
+  {
     name: "Javier León Torrecilla",
     description: "Estudiante de Ingeniería Informática en la UCO",
     backDescription: "🤠",
@@ -218,16 +228,6 @@ const Diseño: CardInfo[] = [
     backphoto: "PeoplePhotos/back/adrianback.webp",
     lklink: "https://www.linkedin.com/in/arrimarcos/",
     ghlink: "https://github.com/adrianmarcos1823-gif",
-  },
-  {
-    name: "Antonio Jesús Merlo Morales",
-    description: "3° Informática - Computación",
-    backDescription:
-      'Si funciona, no lo toques',
-    photo: "PeoplePhotos/front/antoniofront.webp",
-    backphoto: "PeoplePhotos/back/antonioback.webp",
-    lklink: "https://www.linkedin.com/in/antonio-jesús-merlo-morales-28ba162a8?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    ghlink: "https://rincondeaj.github.io/",
   },
 ];
 
