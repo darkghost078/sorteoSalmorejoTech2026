@@ -97,7 +97,7 @@
   },
   {
     "name": "Apipana",
-    "type": "PERA",
+    "type": "CHERRY",
     "imageUrl": "/2026/sponsors/Apipana.svg",
     "href": "https://apipana.io/es/inicio/"
   },
@@ -106,7 +106,12 @@
     "type": "PERA",
     "imageUrl": "/2026/sponsors/Stemdo.png",
     "href": "https://stemdo.io/"
+  },
+  {
+    "name": "CaixaBank Tech",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/CaixaBank.png",
+    "href": "https://www.caixabanktech.com/es/pagina-de-inicio/"
   }
-
 ]
 
